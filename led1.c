@@ -8,7 +8,7 @@ void main()
 	while(1)
 	{
 		unsigned char a=0x01;
-		for(i=0i<8;i++)
+		for(i=0;i<8;i++)
 		{
 			PORTB=a;
 			delay(); //delay 1 for second 
